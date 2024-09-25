@@ -1,0 +1,33 @@
+body {
+    background-color:  #ffe7ef;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: sniglet;
+}
+
+header {
+    text-align: center;
+    font-family: snigletRegular;
+}
+
+@font-face {
+    font-family: sniglet;
+    src: url(../font/Sniglet-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: snigletRegular;
+    src: url(../font/Sniglet-Regular.ttf);
+}
+
+h2 {
+    text-align: center;
+}
+
+a:hover { 
+    color: pink;
+}

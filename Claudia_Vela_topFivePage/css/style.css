@@ -10,6 +10,10 @@ header {
     font-size: 40px;
 }
 
+header a {
+    margin: 30px;
+    padding: 20px; 
+}
 
 h1 {
     font-family: sniglet;
@@ -39,8 +43,6 @@ h5 {
 }
 
 a {
-    margin: 30px;
-    padding: 20px; 
     font-size: 20px;
     color: #e49be8;
     text-decoration: none;

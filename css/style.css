@@ -1,17 +1,17 @@
 body {
-    background-color:  #ffe7ef;
-    
-}
-
-h1 {
+    background-color: #ffe7ef;
     text-align: center;
-    font-size: 80px;
-    font-family: sniglet;
+    font-family: snigletRegular;
 }
 
 header {
     text-align: center;
     font-family: snigletRegular;
+}
+
+h1 {
+    font-family: sniglet;
+    font-size: 50px;
 }
 
 @font-face {
@@ -21,13 +21,34 @@ header {
 
 @font-face {
     font-family: snigletRegular;
-    src: url(../font/Sniglet-Regular.ttf);
+    src: url(../font/Sniglet-Regular.ttf)
+}
+
+image {
+    width: 30px;
 }
 
 h2 {
     text-align: center;
 }
 
-a:hover { 
-    color: pink;
+p {
+    margin: 70px;
+}
+
+a {
+    margin: 30px;
+    padding: 20px; 
+    font-size: 20px;
+    color: #e49be8;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #89578c
+}
+
+body {
+    margin: 30px;
 }

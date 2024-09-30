@@ -1,7 +1,7 @@
 body {
     background-color: #ffe7ef;
     font-family: snigletRegular;
-    text-align: center;
+    margin: 30px;
 }
 
 header {
@@ -12,6 +12,7 @@ header {
 h1 {
     font-family: sniglet;
     font-size: 50px;
+    text-align: center;
 }
 @font-face {
     font-family: sniglet;
@@ -22,3 +23,29 @@ h1 {
     font-family: snigletRegular;
     src: url(../font/Sniglet-Regular.ttf)
 }
+
+a {
+    margin: 30px;
+    padding: 20px; 
+    font-size: 20px;
+    color: #e49be8;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #89578c
+}
+
+h5 {
+    font-size: 30px;
+    text-indent: 100px;
+    text-align: center;
+}
+
+img {
+    float: left;
+    padding: 20px;
+}
+}
+

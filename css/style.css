@@ -2,11 +2,13 @@ body {
     background-color: #ffe7ef;
     text-align: center;
     font-family: snigletRegular;
+    margin: 30px;
 }
 
 header {
     text-align: center;
     font-family: snigletRegular;
+    font-size: 40px;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h2 {
 
 p {
     margin: 70px;
+    font-size: 20px;
 }
 
 a {
@@ -47,8 +50,4 @@ a {
 
 a:hover {
     color: #89578c
-}
-
-body {
-    margin: 30px;
 }
